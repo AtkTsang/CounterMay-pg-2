@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="NegativeEntity" representedClassName="NegativeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PositiveEntity" representedClassName="PositiveEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TargetEntity" representedClassName="TargetEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="countnum" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="NegativeEntity" positionX="9" positionY="72" width="128" height="44"/>
+        <element name="PositiveEntity" positionX="-9" positionY="54" width="128" height="44"/>
+        <element name="TargetEntity" positionX="-36" positionY="18" width="128" height="59"/>
+    </elements>
+</model>
